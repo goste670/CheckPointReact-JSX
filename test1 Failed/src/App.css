@@ -1,0 +1,150 @@
+/* App.css */
+
+/* Styles généraux pour le conteneur de l'application */
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  /* Styles pour les cartes produits */
+  .product-card {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  /* Styles pour l'image du produit */
+  .product-image {
+    height: 200px;
+    background-color: lightgray;
+  }
+  
+  /* Styles pour le nom du produit */
+  .product-name {
+    font-size: 1.5rem;
+  }
+  
+  /* Styles pour les détails du produit */
+  .product-details {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Styles pour le bouton d'achat */
+  .buy-button {
+    margin-top: 10px;
+  }
+  
+  /* Styles pour le bouton du panier */
+  .cart-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles pour le compteur du panier */
+  .cart-counter {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    margin-left: 5px;
+  }
+  
+  /* Styles pour le bouton d'ajout d'article */
+  .add-item-button {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles pour l'overlay du panier */
+  .cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles pour le conteneur du panier */
+  .cart {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+  }
+  
+  /* Styles pour les éléments du panier */
+  .cart-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour l'image du produit dans le panier */
+  .cart-item-image {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    margin-right: 10px;
+  }
+  
+  /* Styles pour les détails du produit dans le panier */
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  /* Styles pour les actions du panier */
+  .cart-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Styles pour la pagination */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  /* Styles pour le message de salutation */
+  .greeting {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Styles pour l'image de l'utilisateur */
+  .user-image {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    margin-left: 10px;
+  }
+  
+  /* Styles pour la Navbar */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  

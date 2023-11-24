@@ -1,0 +1,16 @@
+my-react-app/
+|-- src/
+|   |-- components/
+|       |-- App.jsx
+|       |-- Name.jsx
+|       |-- Price.jsx
+|       |-- Description.jsx
+|       |-- Image.jsx
+|   |-- css/
+|       |-- App.css
+|   |-- data/
+|       |-- products.js
+|   |-- main.jsx
+|-- public/
+|   |-- index.html
+|-- package.json
